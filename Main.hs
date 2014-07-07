@@ -7,8 +7,8 @@ module Main(main) where
 
 
 import System.Environment -- for getArgs
-import qualified Data.Text as T
-import qualified Data.Text.IO as T
+import qualified Data.Text.Lazy as T
+import qualified Data.Text.Lazy.IO as T
 
 main = do 
     args <- getArgs
