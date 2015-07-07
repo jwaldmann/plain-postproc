@@ -19,7 +19,9 @@ main = do
                     [] -> "MAYBE"
                     l : _ -> 
                         let contents = T.unwords $ drop 1 $ T.words l
-                        in  if T.isPrefixOf "WORST_CASE" contents then contents
+                        in  if      T.isPrefixOf "YES" contents then contents
+                            else if T.isPrefixOf "NO"  contents then contents
+                            else if T.isPrefixOf "WORST_CASE" contents then contents
                             else "MAYBE" -- issue #1
             putStrLn $ "starexec-result=" ++ show res -- issue #2
 
