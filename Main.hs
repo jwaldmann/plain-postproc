@@ -13,7 +13,7 @@ import qualified Data.Text.Lazy.IO as T
 main = do 
     args <- getArgs
     case args of
-        [ outfile, benchfile ] -> do
+        [ outfile, benchfile, extradir ] -> do
             input <- T.readFile outfile
             let res = case T.lines input of
                     [] -> "MAYBE"
