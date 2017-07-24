@@ -1,0 +1,18 @@
+/export/starexec/sandbox/solver/bin/starexec_run_certified /export/starexec/sandbox/benchmark/theBenchmark.xml /export/starexec/sandbox/output/output_files
+
+
+--------------------------------------------------------------------------------
+
+
+YES
+<?xml version='1.0' encoding='UTF-8'  ?>
+
+
+<certificationProblem 
+><input 
+><trsInput 
+><trs 
+><rules 
+><rule 
+><lhs 
+><funapp 

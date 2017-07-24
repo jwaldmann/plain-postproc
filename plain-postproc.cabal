@@ -2,14 +2,14 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                plain-postproc
-version:             0.2.0.0
+version:             0.3.0.0
 synopsis:            starexec postprocessor for non-certified categories
 -- description:         
 homepage:            https://github.com/jwaldmann/plain-postproc
 license:             GPL-3
 license-file:        LICENSE
 author:              Johannes Waldmann
-maintainer:          waldmann@imn.htwk-leipzig.de
+maintainer:          -.-@htwk-leipzig.de
 -- copyright:           
 category:            Math
 build-type:          Simple
